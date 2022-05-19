@@ -7,10 +7,10 @@ public class ProfesorEmerito extends Profesor implements Conferenciante {
 	private static int numeroCharlasTotales;
 	
 	public ProfesorEmerito(String nombre, String DNI, Asignatura[] asignaturas) {
-		super(nombre, DNI, asignaturas);
+		super(nombre, DNI);
 	}
 	public ProfesorEmerito(int salario, String nombre, String DNI, Asignatura[] asignaturas) {
-		super(salario, nombre, DNI, asignaturas);
+		super(salario, nombre, DNI);
 	}
 	
 	public int getNumeroCharlas() {

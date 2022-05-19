@@ -7,7 +7,7 @@ public class Main {
 		new Asignatura("Lengua", 2),
 		new Asignatura("Programación", 3)
 		};
-		Profesor manuel = new Profesor(23499, "Manuel Gomez","123456789N", asignaturas);
+		Profesor manuel = new Profesor(23499, "Manuel Gomez","123456789N");
 		PAS mario = new PAS("Mario López", "987654321O", Especialidad.Gestion_Aulas);
 		Estudiante jacinto = new Estudiante("Jacinto Salas", "888777565R", asignaturas);
 		ProfesorEmerito joselu = new ProfesorEmerito(87000, "Jose Luis Puertas", "123123123W", asignaturas);
